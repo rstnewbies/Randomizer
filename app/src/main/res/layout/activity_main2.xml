@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="qm.mboiler.randomizer.Main2Activity">
+
+    <Button
+        android:id="@+id/Menu_exit"
+        android:onClick="Exit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="exit"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <Button
+        android:id="@+id/Menu_options"
+        android:onClick="GoOptions"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="options"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <Button
+        android:id="@+id/Menu_start"
+        android:onClick="GoDraw"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="start draw!"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="162dp" />
+</android.support.constraint.ConstraintLayout>

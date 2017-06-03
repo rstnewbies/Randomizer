@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="qm.mboiler.randomizer.Main3Activity">
+
+    <Button
+        android:id="@+id/Options_k12"
+        android:onClick="K12"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="k12"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <Button
+        android:id="@+id/Options_k24"
+        android:onClick="K24"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="k24"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/Options_menu"
+        android:onClick="BackMenu"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Menu"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/Options_k6"
+        android:onClick="K6"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="K6"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="56dp" />
+</android.support.constraint.ConstraintLayout>
