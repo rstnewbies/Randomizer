@@ -6,7 +6,7 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 
-public class Main3Activity extends AppCompatActivity, {
+public class OptionsActivity extends AppCompatActivity, {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,20 +19,31 @@ public class Main3Activity extends AppCompatActivity, {
         Intent myIntent = new Intent(view.getContext(), Main2Activity.class);
         startActivity(myIntent);
     }
-
+    /* Tameplate
+    SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+    if (restoredText != null) {
+        int idName = prefs.getInt("idName", 6); //0 is the default value.
+    */
+    }
     public void K6()
     {
-         Draw.variable = 6;
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        if (restoredText != null) {
+            int idName = prefs.getInt("idName", 6); //0 is the default value.
     }
 
     public void K12 ()
     {
-        Draw.variable = 12;
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        if (restoredText != null) {
+            int idName = prefs.getInt("idName", 12); //0 is the default value.
     }
 
     public void K24 ()
     {
-        Draw.variable = 24;
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        if (restoredText != null) {
+            int idName = prefs.getInt("idName", 24); //0 is the default value.
     }
 
 

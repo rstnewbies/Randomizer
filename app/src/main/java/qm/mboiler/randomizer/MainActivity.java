@@ -28,8 +28,15 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void Showing(View view) {
+        Draw draw = new Draw();
         TextView myText = (TextView) findViewById(R.id.textView);
-        String myString = String.valueOf(number);
+        String myString = String.valueOf(draw.rand());
         myText.setText(myString);
     }
+
+
+
+
+
+
 }
