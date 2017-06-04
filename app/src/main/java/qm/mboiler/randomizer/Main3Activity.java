@@ -16,7 +16,7 @@ public class Main3Activity extends AppCompatActivity {
 
     public void BackMenu(View view)
     {
-        Intent myIntent = new Intent(view.getContext(), Main2Activity.class);
+        Intent myIntent = new Intent(Main3Activity.this, Main2Activity.class);
         startActivity(myIntent);
     }
 

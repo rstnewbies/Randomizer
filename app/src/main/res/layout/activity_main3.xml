@@ -14,7 +14,7 @@
         android:text="k12"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="146dp" />
+        tools:layout_editor_absoluteY="144dp" />
 
     <Button
         android:id="@+id/Options_k24"
@@ -34,7 +34,7 @@
         android:text="Menu"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="341dp" />
+        tools:layout_editor_absoluteY="338dp" />
 
     <Button
         android:id="@+id/Options_k6"
@@ -44,5 +44,5 @@
         android:text="K6"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="56dp" />
+        tools:layout_editor_absoluteY="58dp" />
 </android.support.constraint.ConstraintLayout>

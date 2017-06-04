@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void GoMenu(View view)
     {
-        Intent myIntent = new Intent(view.getContext(), Main2Activity.class);
+        Intent myIntent = new Intent(MainActivity.this, Main2Activity.class);
         startActivity(myIntent);
     }
 
