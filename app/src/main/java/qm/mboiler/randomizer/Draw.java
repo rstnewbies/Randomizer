@@ -7,8 +7,14 @@ import java.util.Random;
  */
 
 public class Draw {
-    public static int variable;
 
+    public Draw() {
+    }
+        public int rand(){
+
+
+            return number;
+        }
     {
          int variable = 6;
          Random rand = new Random();
