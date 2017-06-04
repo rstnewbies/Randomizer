@@ -11,38 +11,46 @@
         android:onClick="K12"
         android:layout_width="300dp"
         android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:text="k12"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="144dp" />
+        android:layout_marginBottom="286dp" />
 
     <Button
         android:id="@+id/Options_k24"
         android:onClick="K24"
         android:layout_width="300dp"
         android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:text="k24"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="244dp" />
+        android:layout_marginBottom="182dp" />
 
     <Button
         android:id="@+id/Options_menu"
         android:onClick="BackMenu"
         android:layout_width="300dp"
         android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:text="Menu"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="338dp" />
+        android:layout_marginBottom="82dp" />
 
     <Button
         android:id="@+id/Options_k6"
         android:onClick="K6"
         android:layout_width="300dp"
         android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:text="K6"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="58dp" />
+        android:layout_marginBottom="383dp" />
 </android.support.constraint.ConstraintLayout>
