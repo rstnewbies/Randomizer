@@ -16,13 +16,13 @@ public class Main2Activity extends AppCompatActivity {
 
     public void GoDraw(View view)
     {
-        Intent myIntent = new Intent(view.getContext(), MainActivity.class);
+        Intent myIntent = new Intent(Main2Activity.this, MainActivity.class);
         startActivity(myIntent);
     }
 
     public void GoOptions(View view)
     {
-        Intent myIntent = new Intent(view.getContext(), Main3Activity.class);
+        Intent myIntent = new Intent(Main2Activity.this, OptionsActivity.class);
         startActivity(myIntent);
     }
 
