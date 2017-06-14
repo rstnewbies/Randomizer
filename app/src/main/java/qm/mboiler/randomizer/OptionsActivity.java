@@ -29,7 +29,7 @@ public class OptionsActivity extends AppCompatActivity, {
     {
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         if (restoredText != null) {
-            int idName = prefs.getInt("idName", 6); //0 is the default value.
+            int idName = prefs.putInt("idName", 6); //0 is the default value.
             }
         }
 
@@ -37,7 +37,7 @@ public class OptionsActivity extends AppCompatActivity, {
     {
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         if (restoredText != null) {
-            int idName = prefs.getInt("idName", 12); //0 is the default value.
+            int idName = prefs.putInt("idName", 12); //0 is the default value.
             }
         }
 
@@ -45,7 +45,7 @@ public class OptionsActivity extends AppCompatActivity, {
     {
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         if (restoredText != null) {
-            int idName = prefs.getInt("idName", 24); //0 is the default value.
+            int idName = prefs.putInt("idName", 24); //0 is the default value.
         }
     }
 
